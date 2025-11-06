@@ -113,7 +113,7 @@ function FullImg({ obs }) {
       >
         <SectionArea
           paddingTopAndBottom={false}
-          className="h-full bg-black bg-opacity-60"
+          className="h-full bg-black bg-opacity-0"
         >
           <SectionWrapper className="">
             <div className="flex w-full">
@@ -123,12 +123,12 @@ function FullImg({ obs }) {
                     <img
                       src={contentLp01.hero.logo.logoImg}
                       alt={contentLp01.hero.logo.alt}
-                      className="tablet1:w-[280px] desktop1:w-[250px] desktop1:mb-[60px] bg-white rounded-md p-3"
+                      className="tablet1:w-[280px] desktop1:w-[250px] desktop1:mb-[60px]"
                     />
                   </MotionDivDownToUp>
                   <div className="mt-[30%] phone3:mt-[35%] tablet1:mt-[30px] desktop1:mt-0">
                     <MotionDivDownToUp className="">
-                      <div className="flex text-white justify-center desktop1:justify-start font-bold leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[45px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-title5 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                      <div className="flex text-white justify-center desktop1:justify-start font-medium leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[45px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-title5 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                         {contentLp01.hero.textArea.title}
                       </div>
                     </MotionDivDownToUp>
