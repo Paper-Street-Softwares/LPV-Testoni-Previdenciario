@@ -37,9 +37,9 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Quer <span className="text-lpTitle text-primary"> garantir</span> sua{" "}
-          <span className="text-lpTitle text-primary"> aposentadoria</span> no
-          INSS sem erros?
+          Quer <span className="text-lpTitle font-bold"> garantir</span> sua{" "}
+          <span className="text-lpTitle font-bold"> aposentadoria</span> no INSS
+          sem erros?
         </h1>
       ),
       subtitle:
@@ -187,7 +187,7 @@ const contentLp01 = {
         description: "Informamos prazos, custos e possibilidades com clareza.",
       },
       card4: {
-        icon: <Handshake width={32} height={32} />,
+        icon: <ChartNoAxesCombined width={32} height={32} />,
         title: "Comprometimento com resultados",
         description: "Buscamos o melhor resultado com ética e dedicação.",
       },
