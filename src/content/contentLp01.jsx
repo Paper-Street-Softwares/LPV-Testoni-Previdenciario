@@ -12,7 +12,7 @@ import {
 import { infos } from "./content";
 import { Handshake } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
-import { Gavel } from "lucide-react";
+import { Gavel, Scale } from "lucide-react";
 
 // import img1 from "../assets/imgs/about/image1.webp";
 // import img2 from "../assets/imgs/about/image2.webp";
@@ -37,13 +37,16 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Quer <span className="text-lpTitle font-bold"> garantir</span> sua{" "}
-          <span className="text-lpTitle font-bold"> aposentadoria</span> no INSS
-          sem erros?
+          Procura advogado previdenciário em Joinville? Nós ajudamos você a
+          <span className="text-lpTitle font-bold">
+            {" "}
+            garantir seus direitos no INSS
+          </span>{" "}
+          — sem erros.
         </h1>
       ),
       subtitle:
-        "Nossos advogados previdenciários em Joinville atuam para que você receba todos os seus direitos — mesmo que o INSS tenha negado seu benefício.",
+        "Nossos advogados previdenciários em Joinville atuam para que você receba o benefício correto, mesmo se o INSS tiver negado ou atrasado seu pedido.",
       buttonLabel: "Falar com um Advogado agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -82,26 +85,10 @@ const contentLp01 = {
           "Seu pedido foi negado ou o valor está errado? Revisamos cálculos e processos para garantir que você receba tudo o que tem direito.",
       },
       card5: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-warning-icon lucide-file-warning"
-          >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
-          </svg>
-        ),
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <Scale />,
+        title: "Planejamento previdenciário",
+        description:
+          "Ajudamos você a saber quando irá se aposentar e qual será o valor do benefício.",
       },
     },
   },
@@ -207,8 +194,9 @@ const contentLp01 = {
       title: "Na Testoni Advocacia, fazemos seus direitos valerem",
       subtitle: (
         <p className="opacity-80">
-          Trabalhista ou previdenciário, nosso papel é garantir que você tenha o
-          amparo e a segurança que a lei assegura.
+          Mais de <strong>50 avaliações máximas no Google</strong> confirmam:
+          atendimento rápido, explicações claras e resultados que realmente
+          ajudam quem precisa.
         </p>
       ),
     },
@@ -257,7 +245,7 @@ const contentLp01 = {
         </svg>
       ),
       title: "Email",
-      description: `${infos.email}@${infos.emailSecundario}`,
+      description: `${infos.emailSecundario}`,
     },
     card3: {
       icon: (
