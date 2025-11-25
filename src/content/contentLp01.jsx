@@ -194,9 +194,9 @@ const contentLp01 = {
       title: "Na Testoni Advocacia, fazemos seus direitos valerem",
       subtitle: (
         <p className="opacity-80">
-          Mais de <strong>50 avaliações máximas no Google</strong> confirmam:
-          atendimento rápido, explicações claras e resultados que realmente
-          ajudam quem precisa.
+          <strong>Avaliações máximas</strong> no Google confirmam: atendimento
+          rápido, explicações claras e resultados que realmente ajudam quem
+          precisa.
         </p>
       ),
     },
